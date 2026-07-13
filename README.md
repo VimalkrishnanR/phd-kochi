@@ -51,7 +51,7 @@ I hope to return to this project to do deeper analysis in pandas and to design a
 4. [Page Templates](https://jsoma.github.io/page-templates/)
  
 ## Acknowledgements: 
-I thank my intstructors, Jonathan Soma and Jeremy B. Merrill, for guidance on workflows related to scraping and AI-enabled data classification, and Youyou Zhou, for her lectures on the D3 library and the creative applications of SVG graphics in visual journalism. I acknowledge Jui Sarwate's mentorship during this project, and I must also thank my friend, Nandakumar R, for nurturing in me an interest in the cultural heritage of Kochi! 
+I thank my intstructors, Jonathan Soma and Jeremy B. Merrill, for guidance on workflows related to scraping and AI-enabled data classification, and Youyou Zhou, for lectures on the D3 library and the creative applications of SVG graphics in visual journalism. I acknowledge Jui Sarwate's mentorship during this project, and I must also thank my friend, Nandakumar R, for nurturing in me an interest in the cultural heritage of Kochi! 
 
 
 
