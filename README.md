@@ -7,14 +7,14 @@
 
 Project webpage: [Through the Tomes of Shodhganga: The Queen of the Arabian Sea as a 'Subject' of Research](https://vimalkrishnanr.github.io/phd-kochi/)
 
-In this project, I am offering a brief data-visual interpretation of the Greek and Roman art collections held by the Cleveland Musuem of Art (CMA). The CMA, opened in 1916, is celebrating its 110th anniversary this year. In my story I discuss how CMA's early identity was forged by a classical Greco-Roman aesthetic. In this context, my story visualises data related to the current Greek and Roman art collection held by the CMA. 
+In this project, 
 
 ## Data Collection Process 
-The primary source of my data is the open access api offered by the CMA. Data is available in CSV, Json, and API formats here:
-https://openaccess-api.clevelandart.org/
-https://github.com/ClevelandMuseumArt/openaccess
+The primary source of my data is the open access repository named Shodhganga, maintained by the INFLIBNET Centre, an autonomous inter-university centre of the University Grants Commission (UGC):
 
-As I focused on the Greek and Roman Art department, I used the official name of the department (Appendix B - API documentation) as a filter in the 'department' parameter to narrow down the scope of the json data. Using Requests, I imported the json data (refer to the notebook Cleveland.ipynb in the 'analysis' directory) into a pandas dataframe. 
+https://shodhganga.inflibnet.ac.in/
+
+Scraping 
 
 ## Data Analysis Process
 
@@ -39,13 +39,16 @@ This project has been an enriching experience. I could refine my technical skill
  -  Jupyter Notebooks
  -  VS code
  -  Flourish
+ -  Datawrapper
+ -  RawGraphs
+ -  Adobe Illustrator
 
 ## Future Work
 I hope to return to this project to do deeper analysis in pandas and to design a website that is more visual and interactive. I also plan to explore libaries like D3, three.js and and further develop my graphic and web design skills.
 
 ## References: 
 
-1. [I read poetry for work. You get to read it for pleasure.](https://www.washingtonpost.com/opinions/interactive/2026/poetry-month-reading-pleasure/)
+1. [Shodh Ganga : A reservoir of Indian Theses. The Indian Librarian Blog.](https://theindianlibrarian.blogspot.com/2019/06/shodh-ganga-reservoir-of-indian-theses.html)
 2. [Walt Disney Studio's Drawing on the Past](https://www.reuters.com/graphics/DISNEY-100/HISTORY/znvnzmzgjvl/)
 3. [Shall we call it the Metropolitan Meow-seum of Art? Cats rule the canvas in art galleries at The Met museum](https://surbhi-bh.github.io/cats-at-the-met-museum/)
 4. [Page Templates](https://jsoma.github.io/page-templates/)
