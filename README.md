@@ -46,7 +46,7 @@ I hope to return to this project to do deeper analysis in pandas and to design a
 ## References: 
 
 1. [Shodh Ganga : A reservoir of Indian Theses. The Indian Librarian Blog.](https://theindianlibrarian.blogspot.com/2019/06/shodh-ganga-reservoir-of-indian-theses.html)
-2. [Shodhganga, INFLIBNET Centre] (https://shodhganga.inflibnet.ac.in/)
+2. [Shodhganga, INFLIBNET Centre](https://shodhganga.inflibnet.ac.in/)
 3. [A bachelor’s in rare earths? In China, there are schools for that](https://www.reuters.com/graphics/CHINA-RAREEARTHS/UNIVERSITIES/zgpolorrwvd/)  
 4. [Page Templates](https://jsoma.github.io/page-templates/)
  
