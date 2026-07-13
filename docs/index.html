@@ -121,6 +121,20 @@
   width: 100%;
   height: auto;
 }
+/* Optional: Makes sure the SVG scales nicely in the browser */
+        svg {
+            width: 100%;
+            height: auto;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        /* Optional: Smooths out animations originating from object centers */
+        #layer3, #layer4, #layer5 {
+            transform-box: fill-box;
+            transform-origin: center;
+        }
   </style>
   <!-- <link href="scrolly-styles.css" rel="stylesheet">
   <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
@@ -150,11 +164,11 @@
     </div>
   </section> -->
 <body>
-  <div class="mid-container img">
+  <!-- <div class="mid-container img">
   <figure style="margin: 0;">
     <img src="Countdown animation template.svg" alt="India_Kerala_Ernakulam_district">
   </figure>
-  </div>
+  </div> -->
   <div class="content">     
     <div class="header">
       <h1 style="margin-top: 1px;"> Through the Tomes of Shodhganga </h1>
@@ -171,7 +185,7 @@
     <p> When I searched Shodhganga using the toponyms as keywords, I expected a voluminous dataset of thousands of thesis titles. In an ideal academic setting where quality, depth, and meaning would trump quantity, the number of PhD theses on a topic would not matter. But for now, I must collude in the number game. I obtained 350 thesis titles. An analysis of this corpus reveals how studies related to 'Science and Environment' are the highest: </p>
 
     <iframe title="Academic Studies on 'Ernakulam'/'Cochin'/'Kochi'" aria-label="Bar Chart" id="datawrapper-chart-mrmaA" src="https://datawrapper.dwcdn.net/mrmaA/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="326" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
-    <p> There are several studies on the Cochin estuary, the Kochi coastal tract, the wetland species of Ernakulam, and a range of other scientific topics. Studies on social demographics like health and wellbeing as well as on the region's economy, especially featuring the Cochin Port, are also prevalent. These domains consitute almost 90% of the research.  Taking the baton from the Romans, the Portuguese and the Dutch, our academicians continue to be captivated by this historic coast!</p>
+    <p> There are several studies on the Cochin estuary, the Kochi coastal tract, the wetland species of Ernakulam, and a range of other scientific topics. Studies on social demographics like health and wellbeing as well as on the region's economy, especially focusing on the Cochin Port and special economic zone, are also prevalent. These domains consitute almost 90% of the research.  Taking the baton from the Romans, the Portuguese and the Dutch, our academicians continue to be captivated by this historic coast!</p>
 
     <iframe title="The Intellectual 'PhenDulum'" aria-label="Stacked Bars" id="datawrapper-chart-1W1Fz" src="https://datawrapper.dwcdn.net/1W1Fz/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="207" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
       
@@ -179,20 +193,27 @@
 <!-- the first content class div ends here -->
     <div class="content">
     <h2 style = "margin-top: 5px;"> The Research Landscape </h2>
-    <p> The diagram below gives a snapshot of how academics are viewing this historic region from various vantage points. Though each of them is undeniably significant, this city certainly provides fodder for more diverse research angles. For a comparable city like Kolkata, Shodhganga returns close to a 1000 thesis titles—if numbers are a proxy for research diversity! Despite Kochi being a thriving hub of the contemporary art and film industry, despite its rich historical roots and enduring cultural habitat, studies exploring these facets are remarkably sparse. Moreover, as the Government of Kerala scrambles to execute <a href = "https://english.mathrubhumi.com/news/kerala/kerala-budget-100cr-knowledge-valley-announced-to-stop-student-brain-drain-qdco9978"> policy measures </a> to address systemic challenges like declining student intake at state universities and a growing egress of the student population, there is an urgent need for more critical research and reflection on the higher education ecosystem both in Kerala and within Kochi. </p>
+    <p> The chart below is a snapshot of how academics are viewing this historic region from various vantage points. Though each of them is undeniably significant, especially ecology, this city certainly provides fodder for more diverse research angles. For a comparable city like Kolkata, Shodhganga returns close to a 1000 thesis titles—if numbers are a proxy for research diversity! Despite Kochi being a thriving hub of the contemporary art and film industry, despite its rich historical roots and enduring cultural habitat, studies exploring these facets are remarkably sparse. Moreover, as the Government of Kerala scrambles to execute <a href = "https://english.mathrubhumi.com/news/kerala/kerala-budget-100cr-knowledge-valley-announced-to-stop-student-brain-drain-qdco9978"> policy measures </a> to address systemic challenges like declining student intake at state universities and a growing egress of the student population, there is an urgent need for more critical research and reflection on the higher education ecosystem both in Kerala and within Kochi. </p>
+
+    <p>Hover or click the chart for more details</p>
+     <div class="flourish-embed flourish-hierarchy" data-src="visualisation/29667887"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29667887/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
+
     </div>
-
-<div class="mid-container">
+<!-- <div class="mid-container">
   <figure style="margin: 0;">
-    <img src="dendrogram.svg" alt="dendrogram">
+    <img src="dendrogram.svg" alt="dendrogram">  -->
     <!-- <figcaption style="text-align: center;">Linear Dendrogram</figcaption> -->
-  </figure>
-</div>
-
+  <!-- </figure>
+</div> -->
+ <!-- <div class="content" style="color: #000000; font-size: 0.75em; margin-top: 10px; opacity: 0.8; line-height: 1.4;">
+        Source: <a href="https://shodhganga.inflibnet.ac.in/" target="_blank" style="color: #000000; text-decoration: underline;">Shodhganga, INFLIBNET Centre</a><br>
+        Data as of 05 Jul 2026
+      </div>
+    </div> -->
 <div class="content"> <p>  The data clearly reveals the untapped potential for more collective reflection and innovative research. As several respected academics have discussed in this erudite <a href = "https://www.routledge.com/Critical-Humanities-from-India-Contexts-Issues-Futures/Rao/p/book/9780367735104"> collection of essays</a>, the task of scholars here is to actively configure cultural difference and generate new research perspectives emanating from non-European locations. 
   
   <p>If Alexander conceived the 'Ganges' as merely a river to be mapped, the <i>Janapadas</i> of India held a significantly different view of 'Ganga', seeing her as an <a href= "https://www.pennpress.org/9780812249996/the-invention-of-rivers"> all-encompassing rain terrain</a>. Shodhganga can indeed transform into a 'lively archive' of regional research perspectives, capturing the biocultural diversities of Ernakulam, Kerala, and India! I end with a fun chronological fact. A thesis titled <a href = "https://shodhganga.inflibnet.ac.in/handle/10603/565771"> 'Cochin Under the Portuguese and the Dutch'</a> by one Okon L. Abraham, completed in 1930, is the oldest in my dataset! Here is the first sentence in the first chapter of this fascinating document:<br>
-    <blockquote style="margin: 0.5em 1em; padding-left: 1em; border-left: 4px solid #000000; font-style: italic;">'By Cochin may be meant either the native Indian State of that name or the chief town of that state together with a small plot of British territory adjoining to it.'</p> </blockquote> 
+    <blockquote style="margin: 0.5em 1em; padding-left: 1em; border-left: 4px solid #552966; font-style: italic;">'By Cochin may be meant either the native Indian State of that name or the chief town of that state together with a small plot of British territory adjoining to it.'</p> </blockquote> 
   
 </div>
 </div>
@@ -211,8 +232,8 @@
   green: #2B643C
   red: #802626
   white: #FFFFFF -->
-  <script>
-    /*
+  <!-- <script> 
+    <!-- /*
     Different videos need different things - does the reader need to see
     the entire screen of the video, or you want to make sure it covers the
     entire window?
@@ -232,8 +253,8 @@
       //src: "video.mp4",
       //full: true,
       //cover: true
-    //});
-  //</script>
+    //}); -->
+  <!-- </script> -->
   <!-- <style>
     .step {
       height: 100vh;
@@ -246,9 +267,9 @@
       object-fit: cover;
     } */
   </style> -->
-
+      
+    
 </body>
-
 
 </html>
 
