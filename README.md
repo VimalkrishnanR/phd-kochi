@@ -43,7 +43,7 @@ This project has been an enriching experience. I could refine my technical skill
 ## Future Work
 I hope to return to this project to do deeper analysis in pandas and to design a website that is more visual and interactive. I also plan to explore libaries like D3 for visualisng data, especially the hierarchy graphs. I also plan to use the project further develop my graphic and web design skills.
 
-## References: 
+## References 
 
 1. [Shodh Ganga : A reservoir of Indian Theses. The Indian Librarian Blog.](https://theindianlibrarian.blogspot.com/2019/06/shodh-ganga-reservoir-of-indian-theses.html)
 2. [Shodhganga, INFLIBNET Centre](https://shodhganga.inflibnet.ac.in/)
