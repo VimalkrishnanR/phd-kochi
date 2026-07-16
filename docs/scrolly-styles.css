@@ -116,7 +116,7 @@
         flex-grow: 2;
     }
 }
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
     .sticky-thing {
         width: 100vw !important;
         height: 100vh !important;
@@ -132,4 +132,4 @@
         height: 100% !important;
         object-fit: contain !important;
     }
-}
+} */
