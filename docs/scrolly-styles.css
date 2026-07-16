@@ -128,8 +128,8 @@
     .sticky-thing > img,
     .sticky-thing > canvas,
     .scrolly-container video {
-        width: 80% !important;
-        height: 80% !important;
+        width: 100% !important;
+        height: 100% !important;
         object-fit: cover !important;
     }
 }
