@@ -119,7 +119,7 @@
 @media only screen and (max-width: 767px) {
     .sticky-thing {
         width: 100vw !important;
-        height: 100vh !important;
+        height: 50vh !important;
         top: 0 !important;
         max-width: none !important;
         aspect-ratio: auto !important;
