@@ -116,3 +116,20 @@
         flex-grow: 2;
     }
 }
+@media only screen and (max-width: 767px) {
+    .sticky-thing {
+        width: 100vw !important;
+        height: 100vh !important;
+        top: 0 !important;
+        max-width: none !important;
+        aspect-ratio: auto !important;
+    }
+
+    .sticky-thing > img,
+    .sticky-thing > canvas,
+    .scrolly-container video {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+}
