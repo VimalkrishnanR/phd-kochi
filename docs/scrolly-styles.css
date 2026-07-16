@@ -129,7 +129,7 @@
     .sticky-thing > canvas,
     .scrolly-container video {
         width: 100% !important;
-        height: 80% !important;
+        height: 50% !important;
         object-fit: cover !important;
     }
 }
