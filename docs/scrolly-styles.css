@@ -130,6 +130,6 @@
     .scrolly-container video {
         width: 80% !important;
         height: 80% !important;
-        object-fit: contain !important;
+        object-fit: cover !important;
     }
 }
