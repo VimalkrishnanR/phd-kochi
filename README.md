@@ -7,7 +7,7 @@
 
 Project webpage: [Through the Tomes of Shodhganga: The Queen of the Arabian Sea as a 'Subject' of Research](https://vimalkrishnanr.github.io/phd-kochi/)
 
-In this project, I explore data to show how academics have studied my home city of 'Kochi', also known as 'Cochin', and 'Ernakulam'. Kochi is a coastal city in Kerala and it is famously called 'The Queen of the Arabian Sea', bringing to the fore its historic natural harbour and a legacy of spice trade. Here, I present a data-backed narrative to show how Kochi is understudied and presents immense potential for a diverse range of academic research.
+In this project, I present a data story on how academics have studied my home city of 'Kochi', also known as 'Cochin', and 'Ernakulam'. Kochi is a coastal city in Kerala and it is famously called 'The Queen of the Arabian Sea', bringing to the fore its historic natural harbour and a legacy of spice trade. In this story, various simple data visualisations show how Kochi is understudied and presents immense potential for a diverse range of academic research.
 
 ## Data Collection Process 
 The primary source of my data is the open access repository named Shodhganga, maintained by the INFLIBNET Centre, an autonomous inter-university centre of the University Grants Commission (UGC):
@@ -16,15 +16,15 @@ https://shodhganga.inflibnet.ac.in/
 
 I scraped thesis titles containing the toponyms 'Ernakulam', 'Cochin', and 'Kochi' available on Shodhganga and consolidated them into a single dataset. 
 
-Note: The dataset excludes thesis titles do not contain one of these three toponyms. While acknowledging that other research studies may concentrate on this region without incudling its name in their titles,  this dataset has been selected based on the assumption that thesis titles that explicitly include the place name are those most likely to feature the city as the primary focal point. 
+Note: The dataset excludes thesis titles that do not contain one of these three toponyms. This story acknowledges there could be other research studies that concentrate on this region without including the region's name in their titles. This dataset has been selected based on the assumption that thesis titles that explicitly include the region's name are those most likely to feature it as the primary focal point. 
 
 ## Data Analysis Process
 After removing duplicate thesis title entries, I manually coded the subcategories(topics) of the titles. These subcategories were then grouped into defined superordinate categories using an AI model. After training the model on a random sample of the data, I evaluated its accuracy using a confusion matrix. Finally, the AI model classified all subcategories into superordinate categories, which I further refined manually.   
 
 Some of the primary questions that I wanted to answer are as follows: 
-1. Is there a dominant research framework that analyses Kochi?  
+1. Is there a dominant theme characterising research on Kochi?  
 2. What is the distribution of research topics?  
-3. Are there significant domains that are under-represented in the academic research on Kochi?
+3. Are there specific domains that are under-represented in academic research on Kochi?
 
 Using python and Pandas, I analysed the counts of titles, their subcategories and superordinate categories. The data was visualised in the form of bar charts, stacked barcharts, and hierarchy gaphs. 
 
@@ -41,7 +41,7 @@ This project has been an enriching experience. I could refine my technical skill
  -  Adobe Illustrator
 
 ## Future Work
-I hope to return to this project to do deeper analysis in pandas and to design a website that is more visual and interactive. I also plan to explore libaries like D3 for visualisng data, especially the hierarchy graphs. I also plan to use the project further develop my graphic and web design skills.
+I hope to return to this project to do deeper analysis in pandas and to design a website that is more visual and interactive. I also plan to explore libaries like D3 for visualisng data, especially the hierarchy graphs. I intend to refine this project further to develop my graphic and web design skills.
 
 ## References 
 
