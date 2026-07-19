@@ -16,7 +16,7 @@ https://shodhganga.inflibnet.ac.in/
 
 I scraped thesis titles containing the toponyms 'Ernakulam', 'Cochin', and 'Kochi' available on Shodhganga and consolidated them into a single dataset. 
 
-Note: The dataset excludes thesis titles that do not contain one of these three toponyms. This story acknowledges there could be other research studies that concentrate on this region without including the region's name in their titles. This dataset has been selected based on the assumption that thesis titles that explicitly include the region's name are those most likely to feature it as the primary focal point. 
+Note: The dataset excludes thesis titles that do not contain one of these three toponyms. This story acknowledges that there could be other research studies that concentrate on this region without including the region's name in their titles. This dataset has been selected based on the assumption that thesis titles that explicitly include the region's name are those most likely to feature it as the primary focal point. 
 
 ## Data Analysis Process
 After removing duplicate thesis title entries, I manually coded the subcategories(topics) of the titles. These subcategories were then grouped into defined superordinate categories using an AI model. After training the model on a random sample of the data, I evaluated its accuracy using a confusion matrix. Finally, the AI model classified all subcategories into superordinate categories, which I further refined manually.   
